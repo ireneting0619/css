@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.wrap{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 10px 0;
+    text-align: center;
+    background-color: #e7eeea;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(32, 67, 32);
+}
+
+.price{
+    padding: 20px;
+    text-align: center;
+}
+
+.price1,.price2,.price3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+}
+h3{
+    font-size: 16px;
+    color: rgb(32, 67, 32);
+}
+
+h4{
+    font-size: 10px;
+    color: rgb(32, 67, 32);
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(32, 67, 32);
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.listbox{
+    display: flex;
+}
+
+.list ul li h2{
+    font-size: 15px;
+    color: rgb(32, 67, 32);
+}
+
+.list ul li {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(32, 67, 32);
+}
+
+span{
+    margin: 0px 20px;
+}
