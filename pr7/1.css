@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    display: flex;
+    width: 100%;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #7bb9c1;
+    padding: 0 60px;
+    
+}
+p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
